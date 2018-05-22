@@ -1,4 +1,2 @@
 # Homework
-Hola, por favor si vas a copiar esta tarea, procura entender o ver al menos como está hecho, así evitas terminar callado por si te preguntan como lo hiciste.
-
-Saludos ;)
+La tarea está desarrollada con css grid y flex-box procurando aplicar una estructura HTML considerablemente adecuada, orientada en distintas layouts de ejemplo observadas.
