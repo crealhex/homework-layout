@@ -1,4 +1,15 @@
-/* Note: This example only works with Windows Insider Preview Builds 16237+ or the Fall Creators Update. */
+:root {
+  --first-color: #EC2E37;
+  /*   --first-color-alt: #F17910; */
+  --first-color-alt: #FB4C54;
+
+  --second-color: #7CD638;
+  --second-color-alt: #5BB715;
+  --accent-color: #F88A2A;
+  --accent-color-alt: #F17910;
+  --body-color: #222222;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -6,7 +17,7 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Open Sans', Roboto, sans-serif;
   display: grid;
 
   grid-template-areas:
@@ -76,4 +87,55 @@ footer {
   font-size: .85em;
   width: 100%;
   text-align: center;
+}
+
+nav .main-menu {
+  text-align: center;
+  margin: 10px auto;
+  font-weight: 600;
+  font-size: .95rem;
+  /*text-transform: uppercase;*/
+}
+
+.main-menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.link {
+  border: 2px solid var(--first-color-alt);
+  display: inline-block;
+  padding: 14px 25px;
+  border-radius: 3px;
+  color: #fff;
+  text-decoration: none;
+  transition: .2s ease;
+}
+
+.link:hover {
+  background-color: var(--first-color);
+  border: 2px solid var(--first-color);
+}
+
+.link:active {
+  transform: scale3d(.97, .97, .97);
+}
+
+.dev-2 {
+  background-color: #fff;
+  border: 2px solid var(--first-color-alt);
+}
+
+.type-two {
+  background-color: var(--first-color-alt);
+}
+
+.type-three {
+  color: var(--first-color-alt);
+  /*   font-weight: 600; */
+}
+
+.type-three:hover {
+  color: #fff;
 }
