@@ -1,7 +1,7 @@
 :root {
-  --first-color: #EC2E37;
+  --first-color: #111111;
   /*   --first-color-alt: #F17910; */
-  --first-color-alt: #FB4C54;
+  --first-color-alt: #222222;
 
   --second-color: #7CD638;
   --second-color-alt: #5BB715;
@@ -138,4 +138,34 @@ nav .main-menu {
 
 .type-three:hover {
   color: #fff;
+}
+
+section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+article {
+  margin-bottom: 25px;
+}
+
+[class^="text-"] {
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: justify;
+  text-transform: uppercase;
+}
+
+[class$="two"] {
+  font-family: Georgia, sans-serif;
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+[class$="third"] {
+  font-family: 'Courier New', sans-serif;
+  font-size: 18px;
+  text-transform: lowercase;
 }
