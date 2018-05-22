@@ -182,3 +182,9 @@ article {
 .images img {
   width: 150px;
 }
+
+.foots {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
